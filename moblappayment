@@ -1,0 +1,57 @@
+
+<html>
+<head>
+  <h3>PAYMENT METHOD</h3>
+<body style="background-color: yellow">
+<style> 
+input[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+}
+</style>
+</head>
+<body>
+  <img src="C:\Users\karanveer singh\Pictures\images.jpg">
+  <tr>
+  <td>BANK NAME</td>
+  <td><select name='BANK' id='BANK'></td>
+    <option value="select">Select</option>
+    <option value="ALLAHABAD BANK">ALLAHABAD BANK</option>
+    <option value="ANDHRA BANK">ANDHRA BANK</option>
+    <option value="BANK OF BARODA">BANK OF BARODA</option>
+    <option value="BANK OF INDIA">BANK OF INDIA</option>
+	<option value="BANK OF MAHARASHTRA">BANK OF MAHARASHTRA</option>
+	<option value="CANARA BANK">CANARA BANK</option>
+	<option value="CENTRAL BANK OF INDIA">CENTRAL BANK OF INDIA</option>
+	<option value="CORPORATION BANK">CORPORATION BANK</option>
+	<option value="IDBI BANK LTD.">IDBI BANK LTD.</option>
+	<option value="INDIAN BANK">INDIAN BANK</option>
+	<option value="INDIAN OVERSEAS BANK">INDIAN OVERSEAS BANK</option>
+    <option value="JAMMU AND KASHMIR BANK LTD.">JAMMU AND KASHMIR BANK LTD.</option>
+	<option value="ORIENTAL BANK OF COMMERCE">ORIENTAL BANK OF COMMERCE</option>
+	<option value="PUNJAB AND SIND BANK">PUNJAB AND SIND BANK</option>
+	<option value="PUNJAB NATIONAL BANK">PUNJAB NATIONAL BANK</option>
+    <option value="STATE BANK OF INDIA">STATE BANK OF INDIA</option>
+	<option value="SYNDICATE BANK">SYNDICATE BANK</option>
+	<option value="UCO BANK">UCO BANK</option>
+	<option value="UNION BANK OF INDIA">UNION BANK OF INDIA </option>
+    <option value="UNITED BANK OF INDIA">UNITED BANK OF INDIA</option>
+  </select>
+ </tr></td>
+  <br><br>
+  <input type="radio" name="PAYMENTMETHOD" value="NET BANKING" checked>NET BANKING<br>
+<input type="radio" name="PAYMENTMETHOD" value="CREDIT CARD" checked>CREDIT CARD<br>
+<input type="radio" name="PAYMENTMETHOD" value="DEBIT CARD" checked>DEBIT CARD<br>
+<input type="radio" name="PAYMENTMETHOD" value="CASH ON DELIVERY" checked>CASH ON DELIVERY<br>
+<form action="" method="post">
+    <input type="text" id="fname" placeholder="CARD NUMBER" name="fname"><br>
+    <input type="text" id="lname" placeholder="CVV REFERENCE NUMBER" name="lname"><br>
+    <input type="text" id="lname" placeholder="DATE OF CARD EXPIRY" name="lname"><br>
+    <input type="text" id="lname" placeholder="OTP" name="lname"><br>
+<a href="file:///D:/desktop/moblap%20final.html">Submit</a>
+</body>
+</html>
